@@ -1,7 +1,7 @@
 /* styles.css */
-
-* {
-	font-family: Arial;
+body {
+	background-color: #e6ce55;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .backgroundImage {
@@ -10,3 +10,52 @@
 	height: 400px;
 	margin: 64px auto;
 }
+
+h1{
+	color:black;
+	font-size: 48px;
+	text-align: center;
+}
+
+.text {
+	width: 50%;
+	margin: 96px auto;
+}
+
+.text h2,
+.text h3 {
+	display: inline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+h2 {
+	color:dodgerblue;
+	font-size: 40px;
+	text-align: left;
+	font-family: "Jost", sans-serif;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: right;
+}
+
+h3 a:link,
+h3 a:visited {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: white;
+}
+
+.backgroundImage:hover {
+	background-image: url("../img/clock.png");
+	cursor: crosshair;
+}
+
